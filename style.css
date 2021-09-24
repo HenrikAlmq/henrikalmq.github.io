@@ -11,6 +11,10 @@ font-family: 'Stick No Bills', sans-serif;
     margin: 0;
 }
 
+body {
+     background-color: #333; 
+}
+
 /*Grid Layout web & diverse annat */
 .container{
     display: grid;
@@ -22,6 +26,7 @@ font-family: 'Stick No Bills', sans-serif;
         "main1 main1 main2"
         "content1 content2 content3"
         "footer footer footer";
+    
     
 
 }
@@ -45,7 +50,6 @@ button:hover{
     border: 3px solid white;
     padding: 10px;
     background-color: #333;
-    
     color: white;
 }
 
@@ -74,13 +78,13 @@ button:hover{
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    position: relative;
 }
 
 #main-header header {
     position: relative;
     top: 15%;
     left: 2%
+    
 }
 
 #navbar {
@@ -94,8 +98,8 @@ button:hover{
     list-style: none;
     margin-top: auto;
     position: relative;
-    left: 25px;
-    top: 30px;
+    left: 23%;
+    top: 20%;
     
 }
 
@@ -117,21 +121,22 @@ button:hover{
     font-size: 150px;
     font-family: 'Koh Santepheap', cursive;
     position: relative;
-    top: 25%;
-    left: 10%;
+    top: 20%;
+    left: 20%;
 }
 
 #main2 {
     background-color: #333;
     grid-area: main2;   
     position: relative;
+    top:auto;
 }
 
 #main2 img {
     border-radius: 50%;
     position: relative;
-    top: 5%;
-    left: 4%;
+    top: 8%;
+    left:25%;
 }
 
 
@@ -161,7 +166,7 @@ button:hover{
 }
 
 #content3{
-    background-color: #333;
+    background-color:#333;
     grid-area: content3;
     color: white;
     font-size: 30px;
@@ -170,6 +175,7 @@ button:hover{
     padding-top: 5%;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
+    
 }
 
 footer {
@@ -233,7 +239,7 @@ footer {
     #main2 img {
         border-radius: 50%;
         position: relative;
-        max-width: 60%;
+        /* max-width: 60%; */
         left: 20%;
     }
 
