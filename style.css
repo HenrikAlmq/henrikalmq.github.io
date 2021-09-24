@@ -185,7 +185,7 @@ footer {
 
 
 /*Mobil Layout */
-@media only screen and (max-width:900px){
+@media only screen and (max-width:500px){
     .container{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 2fr 1.2fr 1.2fr 1.2fr 1fr;
@@ -209,12 +209,14 @@ footer {
 
     #main-header header {
         position: relative;
+        text-align: center;
+        font-size: 30px;
         
     }
 
     #main1 main {
         color: white;
-        font-size: 70px;
+        font-size: 40px;
         font-family: 'Koh Santepheap', cursive;
         position: relative;
         left: 1%;
@@ -231,8 +233,15 @@ footer {
     #main2 img {
         border-radius: 50%;
         position: relative;
-        left: 22%;
-        top: 1%;
+        max-width: 60%;
+        left: 20%;
+    }
+
+    #navbar li {
+        display: inline;
+        padding: 3px;
+        font-size: 15px;
+        
     }
 
     footer {

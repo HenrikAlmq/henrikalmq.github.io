@@ -107,7 +107,7 @@ buttonReturn.addEventListener("click", function(){
     let loadOriginalPage = document.getElementById('container');
 
     getCV.remove();
-    loadOriginalPage.style.display = "initial";
+    loadOriginalPage.style.removeProperty("display");
     
 });
 
