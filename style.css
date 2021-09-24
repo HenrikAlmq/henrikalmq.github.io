@@ -239,7 +239,7 @@ footer {
     #main2 img {
         border-radius: 50%;
         position: relative;
-        /* max-width: 60%; */
+        max-width: 60%; 
         left: 20%;
     }
 
