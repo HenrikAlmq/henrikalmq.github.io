@@ -121,8 +121,9 @@ button:hover{
     font-size: 150px;
     font-family: 'Koh Santepheap', cursive;
     position: relative;
+    text-align: center;
     top: 20%;
-    left: 20%;
+
 }
 
 #main2 {
