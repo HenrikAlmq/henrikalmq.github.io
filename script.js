@@ -2,7 +2,7 @@ let button = document.getElementById('myButton');
 
 
 function getGit() {
-    debugger;
+    
     fetch('https://api.github.com/users/HenrikAlmq/repos')
     .then((git) => git.json())
     .then((data) => {
