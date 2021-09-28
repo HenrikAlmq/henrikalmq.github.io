@@ -10,7 +10,7 @@ function getGit() {
         data.forEach(function(repo){
             output += `
                 <ul id="content3UL">
-                    <li><a href="${repo.html_url}" target="_blank">${repo.html_url}</a></li>     
+                    <li><a href="${repo.html_url}" target="_blank">${repo.name}</a></li>     
                 </ul>
             ` 
         });
