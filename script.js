@@ -1,5 +1,27 @@
 let button = document.getElementById('myButton');
 
+
+function getGit() {
+    debugger;
+    fetch('https://api.github.com/users/HenrikAlmq/repos')
+    .then((git) => git.json())
+    .then((data) => {
+        let output = '<br><h3>Repositories:</h3>'
+        data.forEach(function(repo){
+            output += `
+                <ul id="content3UL">
+                    <li><a href="${repo.html_url}" target="_blank">${repo.html_url}</a></li>     
+                </ul>
+            ` 
+        });
+        document.getElementById('githubLink').innerHTML = output;
+        console.log(data);
+    });
+    
+};
+
+getGit();
+
 button.addEventListener("click", function() {
     CV();
 });
