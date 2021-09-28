@@ -228,7 +228,14 @@ footer {
         margin: 5%;
     }
 
-    
+    #content3UL {
+        padding: 0%;
+    }
+
+    #content3UL li {
+        display: inline;
+        font-size: 25px;
+    }
 
     #main1 main {
         color: white;
